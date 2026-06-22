@@ -11,7 +11,7 @@ section {
 .inner {
     margin: 10px;
     background-color: white;
-    padding: 10px;
+    padding: 40px;
 
 }
 
@@ -20,10 +20,11 @@ ul {
 }
 
 a {
-    color: rgb(203, 163, 163);
+    color: rgb(41, 80, 2);
     text-decoration: none;
 }
 
 nav {
     background-color: rgb(204, 201, 201);
+    text-align: right;
 }

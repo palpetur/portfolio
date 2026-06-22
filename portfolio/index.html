@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pál Petúr</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" id="style" href="css/style1.css">
     <link rel="icon" href="img/fox.png">
 </head>
 <body>
@@ -44,8 +44,13 @@
 
     <section id="sokadikBranch">
         <h2>CSS váltó</h2>
-        <ul id="css1" value="1">CSS 1</ul>
-        <ul id="ccs2" value="2">CSS 2</ul>
+        <div class="inner">
+
+                <input type="radio" name="css" value="1" onclick="cssChange()">CSS 1
+                <input type="radio" name="css" value="2" onclick="cssChange()">CSS 2
+                <input type="radio" name="css" value="3" onclick="cssChange()">CSS 3
+
+        </div>
     </section>
 </body>
 <script src="script.js"></script>

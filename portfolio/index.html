@@ -1,20 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pál Petúr</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" id="style" href="css/style1.css">
     <link rel="icon" href="img/fox.png">
 </head>
 <body>
-    <style src="css/backrooms.css"></style>
     <h1>Pál Petúr portfólió</h1>
     <nav>
         <a href="#interested">Érdeklődési kör</a>
+        <a href="#boring">A rész amikor meguntam sokadjára újrakezdeni</a>
+        <a href="#hb1">HTML branch 1</a>
+        <a href="#hb2">HTML branch 2</a>
+        <a href="#changer">CSS váltó</a>
     </nav>
     <section id="interested">
-        <button class="hideButton">Backrooms</button>
+        <h2>Érdeklődés</h2>
+        <div class="inner">
+                <ul>Valami</ul>
+                <ul>Valami</ul>
+                <ul>Valami</ul>
+        </div>
+    </section>
+    <section id="boring">
+        <h2>Itt már sokjára felejtettem el commitelni ezért inkább már nem dolgozok azon, hogy normális nézzen ki az oldal</h2>
+        <div class="inner">
+            Csak hogy látszodjon az, hogy itt egy CSS branch van
+        </div>
+    </section>
+
+    <section id="hb1">
+        <h2>HTML branch</h2>
+        <div class="inner">
+            Ez a HTML branch
+        </div>
+    </section>
+
+    <section id="hb2">
+        <h2>HTML branch</h2>
+        <div class="inner">Csak hogy ne egyetlen section legyen a HTML branchben</div>
+    </section>
+
+    <section id="changer">
+        <h2>CSS váltó</h2>
+        <div class="inner">
+
+                <input type="radio" name="css" value="1" onclick="cssChange()">CSS 1
+                <input type="radio" name="css" value="2" onclick="cssChange()">CSS 2
+                <input type="radio" name="css" value="3" onclick="cssChange()">CSS 3
+
+        </div>
     </section>
 </body>
 <script src="script.js"></script>

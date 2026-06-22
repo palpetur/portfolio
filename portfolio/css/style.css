@@ -17,4 +17,16 @@ section {
 
 ul {
     text-decoration: none;
+<<<<<<< Updated upstream
+=======
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(204, 201, 201);
+>>>>>>> Stashed changes
 }
